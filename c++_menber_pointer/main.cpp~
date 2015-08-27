@@ -1,0 +1,27 @@
+#include <iostream>
+
+ struct Foo;
+
+ int Foo::* pi;                  // C = Foo, T = int
+ void (Foo::* pf)(bool, int);    // C = Foo, T = void(bool, int)
+
+ struct Foo {
+     int a;
+     int b;
+     void f(bool, int);
+     void g(bool, int);
+ };
+
+ pi = &Foo::a;
+ pf = &Foo::f;
+
+int main()
+{
+Foo x;
+
+	int n = x.*pi;     // gets x.a
+	(x.*pf)(true, n);  // calls x.f(true, n)
+
+	pf = &Foo::g;
+	(x.*pf)(true, n);  // calls x.g(true, n)
+}
