@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/i5/workspace/c++_learn/c++_functor&function_learn/main.cpp
+/home/i5/workspace/c++_learn/c++_devide/main.cpp
 iostream
 -
-functional
--
-memory
+cmath
 -
 
