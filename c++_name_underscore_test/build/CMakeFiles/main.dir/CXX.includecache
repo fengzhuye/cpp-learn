@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/i5/workspace/c++_learn/c++_name_underscore_test/foo.hpp
+
+/home/i5/workspace/c++_learn/c++_name_underscore_test/main.cpp
+iostream
+-
+foo.hpp
+/home/i5/workspace/c++_learn/c++_name_underscore_test/foo.hpp
+

@@ -1,0 +1,2 @@
+/home/i5/workspace/c++_menber_pointer/build/CMakeFiles/main.dir
+/home/i5/workspace/c++_menber_pointer/build/CMakeFiles/main2.dir

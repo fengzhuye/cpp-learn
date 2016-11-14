@@ -1,0 +1,1 @@
+cmd_/home/i5/workspace/simple_irq_test/irq.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.4.6-xenomai-2.6.3/scripts/module-common.lds --build-id  -o /home/i5/workspace/simple_irq_test/irq.ko /home/i5/workspace/simple_irq_test/irq.o /home/i5/workspace/simple_irq_test/irq.mod.o

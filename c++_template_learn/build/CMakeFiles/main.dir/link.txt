@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/class_test.cpp.o CMakeFiles/main.dir/TemplateDemo.cpp.o  -o main -rdynamic 
